@@ -11,7 +11,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(child: Text('Holaaaaaaaaaaaaa Andy ya me cae muy mal ')),
+        body: Center(
+          child: Text(
+            'Holaaaaaaaaaaaaa Andy no sabe hacer un tramite, se lo pedi hace mil años  ',
+          ),
+        ),
       ),
     );
   }
