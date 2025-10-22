@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Text(
-            'Holaaaaaaaaaaaaa Andy no sabe hacer un tramite, se lo pedi hace mil años ajjajajajaj ',
+            'Que rollo  Andy no sabe hacer un tramite, se lo pedi hace mil años ajjajajajaj ',
           ),
         ),
       ),
