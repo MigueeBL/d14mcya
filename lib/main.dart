@@ -9,6 +9,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return MaterialApp(
       debugShowCheckedModeBanner:
           false, // Solo quito la etiqueta que se ve en la parte derecha de arriba al momento de ejcutar el emulador
@@ -72,6 +73,13 @@ class LoginPantalla extends StatelessWidget {
                 const SizedBox(height: 80),
               ],
             ),
+=======
+    return const MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            'Que rollo  Andy no sabe hacer un tramite, se lo pedi hace mil años ajjajajajaj ',
+>>>>>>> 20bb876c197fcacd0bdad088703ca5474076e990
           ),
 
           // Recuadro azul que ocupa el resto de la pantalla
