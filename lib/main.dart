@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,7 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Solo quito la etiqueta que se ve en la parte derecha de arriba al momento de ejcutar el emulador
+      debugShowCheckedModeBanner:
+          false, // Solo quito la etiqueta que se ve en la parte derecha de arriba al momento de ejcutar el emulador
       home: LoginPantalla(),
     );
   }
@@ -23,7 +25,9 @@ class LoginPantalla extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF4F4F4), // Para poner colores se usa al inicio 0XFF
+      backgroundColor: const Color(
+        0xFFF4F4F4,
+      ), // Para poner colores se usa al inicio 0XFF
       body: Column(
         children: [
           // Parte superior con título y logo
@@ -41,7 +45,7 @@ class LoginPantalla extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 20),
-                
+
                 // Aquí irá el logo
                 // Por ahora una referncia con un icono de flutter
                 Container(
@@ -58,11 +62,12 @@ class LoginPantalla extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                const Text(
+                Text(
                   'D14 MCyA',
-                  style: TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.w600,
+                  style: GoogleFonts.montserrat(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w300,
+                    fontStyle: FontStyle.italic,
                     color: Colors.black87,
                   ),
                 ),
@@ -70,7 +75,7 @@ class LoginPantalla extends StatelessWidget {
               ],
             ),
           ),
-          
+
           // Recuadro azul que ocupa el resto de la pantalla
           Expanded(
             child: Container(
@@ -86,7 +91,6 @@ class LoginPantalla extends StatelessWidget {
               child: Column(
                 children: [
                   // Aquí irá el contenido del formulario
-                  
                 ],
               ),
             ),
