@@ -47,19 +47,10 @@ class LoginPantalla extends StatelessWidget {
                 const SizedBox(height: 20),
 
                 // Aquí irá el logo
-                // Por ahora una referncia con un icono de flutter
-                Container(
+                Image.asset(
+                  'assets/images/logo.png',
                   width: 100,
                   height: 100,
-                  decoration: BoxDecoration(
-                    color: Colors.blue.shade100,
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(
-                    Icons.water_drop,
-                    size: 50,
-                    color: Colors.blue,
-                  ),
                 ),
                 const SizedBox(height: 10),
                 Text(
